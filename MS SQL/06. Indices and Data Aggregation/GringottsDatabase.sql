@@ -100,3 +100,4 @@ SELECT
 	(DepositAmount - LEAD([DepositAmount]) OVER (ORDER BY Id)) AS [Difference]
 FROM WizzardDeposits
 ) AS SubQuery
+
